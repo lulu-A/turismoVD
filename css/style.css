@@ -59,7 +59,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #656565;
+  color: #000000;
   text-align: left;
   background-color: #F3F3F3;
 }
@@ -9272,7 +9272,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #55267D !important;
+  color: #ffae17 !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -9513,7 +9513,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link {
   padding: 30px 15px;
-  color: #ff6900;
+  color: #ffae17;
   font-weight: 500;
   outline: none;
 }
@@ -9767,4 +9767,8 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.box {
+  background:linear-gradient(#672276,#b3107d) ;
 }
