@@ -6154,7 +6154,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #FFFFFF !important;
+  background-color: #55267D !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -9513,7 +9513,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link {
   padding: 30px 15px;
-  color: #212121;
+  color: #ff6900;
   font-weight: 500;
   outline: none;
 }
