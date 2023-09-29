@@ -9264,7 +9264,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #F5DE33 !important;
+  color: # !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9276,7 +9276,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
-  color: #d0eaaf !important;
+  color: #F5DE33 !important;
 }
 
 .text-success {
@@ -9520,7 +9520,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #7AB730;
+  color: #F5DE33;
 }
 
 @media (max-width: 991.98px) {
