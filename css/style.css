@@ -9778,10 +9778,10 @@ h6,
  font-family: monospace;
  white-space: nowrap;
  border-right: 4px solid;
- width: 8ch;
+ width: 23ch;
 
- animation: typing 1500ms steps(8),
- blink .5s infinite step-end alternate ;
+ animation: typing 2200ms steps(23),
+ blink .5s infinite step-end ;
   overflow: hidden;
 }
 
