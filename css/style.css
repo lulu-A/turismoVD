@@ -11,7 +11,7 @@
   --purple: #771b94;
   --pink: #e83e8c;
   --red: #dc3545;
-  --orange: #fd7e14;
+  --orange: #fd7e14; 
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
@@ -6154,7 +6154,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #67227e !important;
+  background:linear-gradient(to right, #672276,#b3107d) ;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -9264,7 +9264,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #F5DE33 !important;
+  color: #ffae17 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
