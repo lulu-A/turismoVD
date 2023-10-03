@@ -6154,7 +6154,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background:linear-gradient(to right, #672276,#b3107d) ;
+  background-color: #672276;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -7381,7 +7381,7 @@ button.bg-dark:focus {
 
 .mb-2,
 .my-2 {
-  margin-bottom: 5rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 .ml-2,
