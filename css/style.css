@@ -2401,7 +2401,7 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(243, 181, 10, 0.808);
 }
 
-.btn-secondary {
+.btn-secondary {container
   color: #212529;
   background-color: #f4faec;
   border-color: #f4faec;
