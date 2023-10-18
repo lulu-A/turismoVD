@@ -9,9 +9,9 @@ $email = strip_tags(htmlspecialchars($_POST['email']));
 $m_subject = strip_tags(htmlspecialchars($_POST['subject']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
 
-$to = "joaquin502lopez@gmail.com"; // Change this email to your //
+$to = "turismo.villadolores@gmail.com"; // Change this email to your //
 $subject = "$m_subject:  $name";
-$body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\n\nEmail: $email\n\nSubject: $m_subject\n\nMessage: $message";
+$body = "Ha recibido un nuevo mensaje del formulario de contacto de su sitio web.Turismo de Villa Dolores"."Aquí están los detalles: $name\n\n\nEmail: $email\n\nSubject: $m_subject\n\nMessage: $message";
 $header = "From: $email";
 $header .= "Reply-To: $email";	
 
