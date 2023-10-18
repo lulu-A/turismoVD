@@ -2401,11 +2401,10 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(243, 181, 10, 0.808);
 }
 
-.btn-secondary {container
-  color: #212529;
+.btn-secondary container
+{color: #212529;
   background-color: #f4faec;
-  border-color: #f4faec;
-}
+  border-color: #f4faec;}
 
 .btn-secondary:hover {
   color: #212529;
@@ -2428,7 +2427,7 @@ fieldset:disabled a.btn {
 
 .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-secondary.dropdown-toggle {
-  color: #212529;
+  color: #ffae17;
   background-color: #dcefc4;
   border-color: #d6edb9;
 }
@@ -2513,7 +2512,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-warning {
-  color: #212529;
+  color: #ffae17;
   background-color: #ffc107;
   border-color: #ffc107;
 }
@@ -2672,24 +2671,24 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(122, 183, 48, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(251, 255, 35);
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #7AB730;
+  color: #F5DE33;
   background-color: transparent;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #7AB730;
-  border-color: #7AB730;
+  background-color:#ffae17;
+  border-color: #ffae17;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(122, 183, 48, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(247, 223, 15, 0.719);
 }
 
 .btn-outline-secondary {
@@ -2753,7 +2752,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-success:not(:disabled):not(.disabled):active:focus, .btn-outline-success:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-success.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(167, 159, 40, 0.5);
 }
 
 .btn-outline-info {
@@ -3215,7 +3214,7 @@ input[type="button"].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #7AB730;
+  background-color: #F5DE33;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -4275,15 +4274,15 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.911);
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgb(0, 0, 0);
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgb(0, 0, 0);
 }
 
 .navbar-light .navbar-nav .show > .nav-link,
@@ -9571,7 +9570,7 @@ h6,
 
 .page-header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/diquelaviña.jpg), no-repeat center center;
-  background-size: cover;
+  background-size: cover;                        
 }
 
 .destination-item img {
